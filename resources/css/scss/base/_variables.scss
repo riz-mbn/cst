@@ -4,7 +4,7 @@
 // lighten($color-black, 20%); #333
 
 
-$color-primary: #ff0000;
+$color-primary: #59492C;
 $color-secondary: #00c2d5;
 $color-success: #86c837;
 $color-alert: #ff002b;
@@ -12,24 +12,24 @@ $color-warning: #fbb200;
 
 $color-black: #000;
 $color-white: #fff;
-$color-grey: #363636; 
-$color-dark: #161e28; //1a1818
+$color-grey: #454545; 
+$color-dark: #59492C; //1a1818
 $color-light: #eff2f5;
 
 $color-lblue: #00c2d5;
 $color-dblue: #00c2d5;
 
-$body-font-family: 'Roboto', sans-serif;
-$body-font-size: 16px;
+$body-font-family: 'Open Sans', sans-serif;
+$body-font-size: 18px;
 
-$heading-font-family: 'Roboto', serif; 
+$heading-font-family: 'Abril Fatface', serif; 
 $button-font-family: $body-font-family;
 
 $font-family-oswald: 'Oswald', sans-serif;
 
 
 // FOUNDATION VARIABLES 
-$grid-container: 1470px;
+$grid-container: 1410px;
 $grid-container-padding: 60px;
 
 $foundation-palette: (

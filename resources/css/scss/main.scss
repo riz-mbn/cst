@@ -72,3 +72,16 @@
 @import "./base/components";
 @import "./base/animations"; 
 
+// SECTIONS -------
+@import "./sections/header";
+@import "./sections/content";
+@import "./sections/sidebar";
+@import "./sections/footer";
+
+// PAGES
+@import "./pages/home";
+@import "./pages/inner";
+
+//PLUGINS
+//Include slick
+@import "../../vendor/slick/slick.scss"; 

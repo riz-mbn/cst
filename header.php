@@ -13,21 +13,34 @@
 <body <?php body_class() ?>>
 
 <div id="wrapper"> 
-    <header id="header" >
-
-            <a class="logo" href="<?php echo get_home_url(); ?>">
-                <img src="<?php echo MBN_ASSETS_URI ?>/img/logo.png" alt="">
-            </a>
-                
-            <div class="menu">    
-                <?php
-                    wp_nav_menu( array( 
-                        'theme_location' => 'main-menu',
-                        'menu'       => '',
-                        'container'  => '',
-                        'items_wrap' => '<ul class="menu align-center dropdown" data-dropdown-menu>%3$s</ul>' 
-                    ));
-                ?>     
-            </div>        
+    <header id="header" data-sticky-container data-toggler=".show-menu">
+        <div class="hsnav-s4 sticky" data-sticky data-options="marginTop:0">
+            <div class="navbar">
+                <div class="grid-container">
+                    <a class="navlogo" href="#">
+                        <figure>
+                            <img src="<?php echo MBN_ASSETS_URI ?>/img/logo.svg" alt="" width="243" height="107" />
+                        </figure>
+                    </a>
+                    <span class="navicon hide-for-large" data-toggle="header">mobile menu</span>
+                    <nav class="navmenu show-for-large">
+                        <ul class="menu align-right dropdown" data-dropdown-menu>
+                            <li class="current-menu-item"><a href="<?php echo home_url().'#services'?>">Services</a></li>
+                            <li><a href="<?php echo home_url().'#about'?>">About Us</a></li>
+                            <li><a href="<?php echo home_url().'#faq'?>">FAQ</a>
+                            <li><a href="<?php echo home_url().'/contact'?>">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="mobmenu hide-for-large">
+                        <ul class="menu accordion-menu" data-multi-open="false" data-accordion-menu data-submenu-toggle="true">
+                            <li class="current-menu-item"><a href="<?php echo home_url().'#services'?>">Services</a></li>
+                            <li><a href="<?php echo home_url().'#about'?>">About Us</a></li>
+                            <li><a href="<?php echo home_url().'#faq'?>">FAQ</a>
+                            <li><a href="<?php echo home_url().'/contact'?>">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>            
     </header>
     <main id="content" class="content">
