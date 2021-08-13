@@ -71,30 +71,65 @@ body {
 
     background: transparent !important;
 
-    .accordion-title {
-        font-family: $body-font-family;
-        font-size: 28px;
-        font-weight: 700;
-        line-height: 1.4;
-        color: #8B8B8B;
-        border: 0;
-        border-bottom: 2px solid #CFCFCF;
-        padding: 1.25rem 0;
+    .accordion-item {
 
-        &:hover,
-        &:focus {
+        .accordion-title {
+            font-family: $body-font-family;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.4;
+            color: #8B8B8B;
+            border: 0;
+            border-bottom: 2px solid #CFCFCF;
+            padding: 1.7rem 0;
+            display: flex;
+
+            span {
+                width: 80%;
+            }
+    
+            &:hover,
+            &:focus {
+                background: transparent;
+            }
+            
+            &:before {
+                content: url(../img/icon/icn-chev.svg); 
+                background: #F2E4C2;
+                border-radius: 50%;
+                width: 54px;
+                height: 54px;
+                text-align: center;
+                top: 30%;
+                transition: all 0.3s ease;
+            }
+        }
+    
+        .accordion-content {
             background: transparent;
+            font-weight: 600;
+            border: 0;
+            padding: 1.7rem 0;
+    
+            .highlight {
+                color: #b77e31;
+            }
+
+            p {
+                text-align: justify;
+            }
         }
+    
+        &.is-active {
+            > .accordion-title {
+                &:before {
+                    content: url(../img/icon/icn-chev.svg);
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+
     }
 
-    .accordion-content {
-        background: transparent;
-        font-weight: 600;
-        border: 0;
-
-        .highlight {
-            color: #b77e31;
-        }
-    }
 }
 

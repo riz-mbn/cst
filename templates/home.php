@@ -247,31 +247,31 @@
                     <div class="col-body">
                         <ul class="accordion" data-accordion>
                         <li class="accordion-item is-active" data-accordion-item>
-                                <a href="#" class="accordion-title">I think my child/loved one needs speech therapy. What should I do? 1</a>
+                                <a href="#" class="accordion-title"><span>I think my child/loved one needs speech therapy. What should I do?</span></a>
                                 <div class="accordion-content" data-tab-content>
                                 <p>Reach out to us. Let’s discuss your concerns. From there we can help determine whether a formal screening or an evaluation is needed and a course of action. Feel free to refer to <span class="highlight">Our Process</span> for more information.</p>
                                 </div>
                             </li>
                             <li class="accordion-item" data-accordion-item>
-                                <a href="#" class="accordion-title">What does a therapy session look like?</a>
+                                <a href="#" class="accordion-title"><span>What does a therapy session look like?</span></a>
                                 <div class="accordion-content" data-tab-content>
                                 <p>Good question! Therapy sessions vary from play-based to more structured depending on the client. For our little ones, a play-based approach is generally used. For older clients, we may opt for a more structured session. It just dependents on what our clients need. We incorporate your child/loved one’s interests into therapy sessions. We also like to incorporate breaks, incentives, and mindfulness techniques. Our aim is to work hard and have fun!</p>
                                 </div>
                             </li>
                             <li class="accordion-item" data-accordion-item>
-                                <a href="#" class="accordion-title">How long will my child/loved one need speech therapy?</a>
+                                <a href="#" class="accordion-title"><span>How long will my child/loved one need speech therapy?</span></a>
                                 <div class="accordion-content" data-tab-content>
                                 <p>The short answer—it depends. Determining the length of treatment can be complicated and depends on a variety of factors. Some may meet their speech and language goals rather quickly, while others may require speech therapy for a much longer period of time. Throughout the therapy process we will assess, monitor, and discuss progress, along with your child/loved one’s needs to determine the best course of action.</p>
                                 </div>
                             </li>
                             <li class="accordion-item" data-accordion-item>
-                                <a href="#" class="accordion-title">Do you take insurance?</a>
+                                <a href="#" class="accordion-title"><span>Do you take insurance?</span></a>
                                 <div class="accordion-content" data-tab-content>
                                 <p>Candid Speech Therapy is an out-of-network provider. We do not bill insurance directly, however, a superbill containing service information and the applicable medical codes can be provided upon request to submit to your health insurance provider for possible reimbursement. We strongly encourage you to check coverage for service prior to beginning services, should you be interested in seeking reimbursement.</p>
                                 </div>
                             </li>
                             <li class="accordion-item" data-accordion-item>
-                                <a href="#" class="accordion-title">What forms of payment do you accept?</a>
+                                <a href="#" class="accordion-title"><span>What forms of payment do you accept?</span></a>
                                 <div class="accordion-content" data-tab-content>
                                 <p>We accept the following forms of payment:</p>
                                     <p>Credit and debit cards</p>

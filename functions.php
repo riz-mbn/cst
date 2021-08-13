@@ -42,6 +42,7 @@ function mbn_theme_setup(){
 
     register_nav_menus(array(
         'main-menu'   => 'Main Menu',
+        'footer-menu'   => 'Footer Menu',
     ));
 
 }
