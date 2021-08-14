@@ -8,7 +8,7 @@
     margin-bottom: 20px;
     line-height: 28px;
     transition:all 0.5s ease;
-    border-radius: 3px;
+    border-radius: 0;
     min-width: 240px;
 
     &:hover {
@@ -37,13 +37,14 @@
     }    
         
     &.hollow {
+        border: 5px solid #B77E30;
         background: none;
-        color: $color-primary;
-        border-color: $color-primary;
+        color: #B77E30;
+        border-color: #B77E30;
 
         &:hover {
-            background: $color-primary;
-            border-color: $color-primary;
+            background: #B77E30;
+            border-color: #B77E30;
             color: $color-white;
 
             i.dark {

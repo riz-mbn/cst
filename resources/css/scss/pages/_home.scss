@@ -76,15 +76,26 @@
 		}
 	}
 
+    @include media (max-width,1800px){
+        .hero-block {
+            min-height: 100%;
+        }
+    }
+    
+	@include media(max-width, 1440px) {
+        .hero-caption {
+
+			h1 {
+				font-size: 45px;
+			}
+		}
+    }
+
 	@include media(max-width, 1280px) {
 		.hero-caption {
 			padding-top: 110px;
 			padding-bottom: 80px;
 			font-size: 18px;
-
-			h1 {
-				font-size: 45px;
-			}
 		}
 
 		.hero-logos {
@@ -95,9 +106,12 @@
 			}
 		}
 	}
+    
+    @include media(max-width, 1024px){
+        padding-top: 60px;
+    }
 
 	@include media(max-width, 1023px) {
-		padding: 0;
 
 		.hero-caption {
 			height: auto;
@@ -149,7 +163,6 @@ section {
     }
     &.why_choose_us {
         background: #f5efe1;
-
     }
 
     &.about {
@@ -188,6 +201,27 @@ section {
             .nicole_sign {
                 margin-bottom: 20px;
             }
+
+            @include media(max-width,10230px) {
+
+                .cell {
+                    padding: 0; 
+                }
+
+            }
+
+            @include media(max-width,1180px) {
+                max-height: 100%;
+
+            }
+
+            @include media(max-width,1037px) {
+
+                .col-right {
+                    position: relative;
+                    top: 0;
+                }    
+            }
         }
     }
 
@@ -200,6 +234,7 @@ section {
         .process_row {
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
         }
 
         .process_wrap {
@@ -227,6 +262,15 @@ section {
                     right: -42px;
                     top: -40px;
                     transform: rotate(180deg);
+                }
+            }
+
+            &.process_3 {
+                .float_img {
+                    
+                    &.process_arrow_2 {    
+                        display: none;
+                    }
                 }
             }
 
@@ -288,10 +332,144 @@ section {
             }
 
         }
+        
+        @include media(max-width, 480px){
 
-        @include media(max-width,1023px) {
+            .process_wrap {
+                margin: 30px ​40px;
+
+                .float_img {
+                    width: 470px;
+
+                    &.process_arrow_1 {
+                        left: -170px !important;
+                        top: -10px !important;
+                    }
+
+
+                    &.process_arrow_3 {
+                        height: auto !important;
+                        top: -110px !important;
+                        left: -110px !important;
+                    }
+                    
+                }
+
+                .process_inner {
+                    width: 250px;
+                    height: 250px;
+    
+                    .process_num {
+                        font-size: 40px;
+                        figure {
+                            &.bg {
+                                top: -8px;
+                                width: 70px;
+                                max-width: 100%;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
+    
+                    .process_text {
+                        padding: 20px 40px 0;
+
+                        h4 {
+                            font-size: 18px;
+                        }
+
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+                
+                &.process_3 {
+                    .float_img {    
+                        &.process_arrow_2 {
+                            display: none;
+                        }
+                    }
+                }
+
+                &.process_2, 
+                &.process_3, 
+                &.process_4 {
+                    .float_img {    
+                        &.process_arrow_2 {
+                            width: 340px;
+                            top: 70px;
+                            left: -100px;
+                        }
+                    }
+                }
+
+            }
+        }
+        
+        @include media(max-width,1307px) {
+            .process_wrap {
+                &.process_3 {
+                    .float_img {    
+                        &.process_arrow_2 {
+                            display: block;
+                        }
+                    }
+                }
+
+                &.process_2, 
+                &.process_4 {
+                    .float_img {    
+                        &.process_arrow_2 {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        @include media(max-width,891px) {
             flex-direction: column;
             flex-wrap: wrap;
+        
+            .process_wrap {
+                margin: 40px 40px 40px;
+
+                .float_img {
+
+                    &.process_arrow_1 {
+                        left: -150px;
+                        top: 70px;
+                        transform: rotate(90deg);
+                    }
+
+                    &.process_arrow_2 {
+                        left: -46%;
+                        transform: rotate(90deg);
+                        bottom: -107%;
+                    }
+
+                    &.process_arrow_3 {
+                        transform: rotate( -90deg );
+                        top: -154px;
+                        bottom: auto;
+                        right: auto;
+                    }
+
+                }
+                
+                &.process_2,
+                &.process_4 {
+                    .float_img {    
+                        &.process_arrow_2 {
+                            display: block;
+                        }
+                    }
+                }
+
+
+            }
+            
         }
 
     }
@@ -320,4 +498,60 @@ section {
         }
     }
 
+    @include media (max-width, 1200px) {
+        &.hero {
+            padding-bottom: 0;
+        }
+    
+    }
+
+    @include media (max-width, 1023px) {
+        &.why_choose_us {
+            h3 {
+                font-size:16px !important;
+            }
+        }
+    
+    }
+
+}
+
+.faqs {
+    h3 {
+        font-weight: 700;
+        font-family: $body-font-family;
+    }
+}
+
+
+@include media(max-width, 1023px){
+    .faqs {
+
+        .col-image {
+            display: none;
+        }
+        
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    figure{
+
+
+        &:not(.float_img) {
+            text-align: center;
+        }
+
+        &.nicole_img {
+            margin-bottom: 30px;
+        } 
+    }
+
+    
 }

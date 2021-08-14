@@ -8,7 +8,6 @@
     <div class="hero-block">
         <div class="grid-container"> 
             <figure class="floating_img hero_1"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-1.png" alt="" width="524" height="824" /></figure>
-            <figure class="floating_img hero_2"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2.png" alt="" width="524" height="824" ></figure>
             <div class="grid-x grid-margin-x">
                 <div class="cell large-offset-1 large-10 align-self-bottom">
                     <figure class="text-center"><img src="<?php echo MBN_ASSETS_URI ?>/img/home_logo.svg" alt=""></figure>
@@ -19,7 +18,9 @@
                     <h1>children and adults</h1>
                     <h1>in Arizona.</h1>
                 </div>
-            </div>
+            </div>            
+            <figure class="floating_img hero_2"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2.png" alt="" width="524" height="824" ></figure>
+            <figure class="floating_img hero_2_mob"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2-mob.png" alt="" width="524" height="824" ></figure>
         </div>
     </div>
 </section>
@@ -84,6 +85,7 @@
             </div>
         </div>
         <div class="grid-x grid-margin-x meet_nicole">       
+            <figure class="col-image hide-for-large nicole_img"><img src="<?php echo MBN_ASSETS_URI ?>/img/about.png" alt="" width="500" height="500" /></figure>
             <div class="cell large-6 col-left">
                 <h2>Meet Nicole</h2>
                 <p class="italic">From the very beginning, I always knew I wanted to help people in some capacity. I’ve also always had a love for language and found it fascinating how we connect through communication. My journey lead me to find the field of speech language pathology and I haven’t looked back.</p>
@@ -95,7 +97,7 @@
                 <p class="italic">When it comes to speech and language therapy there isn’t a “one-size fits all” approach. It just doesn’t exist. Everyone is different. For people with communication disorders, I’ve found as a therapist I have to think outside of the box. I love to use my creativity along with evidence-based communicate candidly with the people that matter most. After all, that’s what life’s about.</p>     
             </div>
             <div class="cell large-6 col-right">       
-                <figure class="col-image nicole_img"><img src="<?php echo MBN_ASSETS_URI ?>/img/about.png" alt="" width="500" height="500" /></figure>
+                <figure class="col-image show-for-large nicole_img"><img src="<?php echo MBN_ASSETS_URI ?>/img/about.png" alt="" width="500" height="500" /></figure>
                 <div class="text-group">
                     <p><strong>The best part of being a speech language pathologist?</strong></p> 
                     <p class="italic">Making connections with people. Using my training to support others and give them a voice to be their most authentic selves. </p> 
@@ -112,7 +114,7 @@
     <div class="grid-container">
         <h2 class="text-center">Our Process</h2>
         <div class="process_row">
-            <div class="process_wrap">
+            <div class="process_wrap process_1">
                 <figure class="float_img process_arrow_1"><img src="<?php echo MBN_ASSETS_URI ?>/img/img_process_arrow_1.svg"/></figure>
                 <div class="process_inner">
                     <div class="process_num">                        
@@ -125,7 +127,7 @@
                     </div>
                 </div>
             </div>
-            <div class="process_wrap">
+            <div class="process_wrap process_2">
                 <figure class="float_img process_arrow_2"><img src="<?php echo MBN_ASSETS_URI ?>/img/img_process_arrow_2.svg"/></figure>
                 <div class="process_inner">
                     <div class="process_num">                        
@@ -138,7 +140,8 @@
                     </div>
                 </div>
             </div>
-            <div class="process_wrap">
+            <div class="process_wrap process_3">
+                <figure class="float_img process_arrow_2"><img src="<?php echo MBN_ASSETS_URI ?>/img/img_process_arrow_2.svg"/></figure>
                 <div class="process_inner">
                     <div class="process_num">                        
                         <figure class="bg"><img src="<?php echo MBN_ASSETS_URI ?>/img/icn-process-bg.svg" /></figure>
@@ -150,8 +153,7 @@
                     </div>
                 </div>
             </div>
-        </div><div class="process_row">
-            <div class="process_wrap">
+            <div class="process_wrap process_4">
                 <figure class="float_img process_arrow_2"><img src="<?php echo MBN_ASSETS_URI ?>/img/img_process_arrow_2.svg"/></figure>
                 <div class="process_inner">
                     <div class="process_num">                        
@@ -164,7 +166,7 @@
                     </div>
                 </div>
             </div>
-            <div class="process_wrap">
+            <div class="process_wrap process_5">
                 <div class="process_inner">
                     <div class="process_num">                        
                         <figure class="bg"><img src="<?php echo MBN_ASSETS_URI ?>/img/icn-process-bg.svg" /></figure>
@@ -176,7 +178,7 @@
                     </div>
                 </div>
             </div>
-            <div class="process_wrap">
+            <div class="process_wrap process_6">
                 <figure class="float_img process_arrow_3"><img src="<?php echo MBN_ASSETS_URI ?>/img/img_process_arrow_1.svg"/></figure>
                 <div class="process_inner">
                     <div class="process_num">                        
@@ -196,7 +198,7 @@
     <div class="grid-container">
         <h2 class="text-center">Why Choose Us?</h2>
         <div class="grid-x grid-margin-x cols3-s3">
-            <div class="cell medium-6 large-4">
+            <div class="cell medium-12 large-4">
                 <div class="col-box text-center">
                     <figure class="col-image"><img src="<?php echo MBN_ASSETS_URI ?>/img/img_mighty.png" alt="" width="245" height="214"></figure>
                     <div class="col-body">
@@ -206,7 +208,7 @@
                     </div>
                 </div>
             </div>
-            <div class="cell medium-6 large-4">
+            <div class="cell medium-12 large-4">
                 <div class="col-box text-center">
                     <figure class="col-image"><img src="<?php echo MBN_ASSETS_URI ?>/img/img_torch.png" alt="" width="245" height="214"></figure>
                     <div class="col-body">

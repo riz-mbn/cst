@@ -1,8 +1,9 @@
-
-body {
-    background: #E5E5E5;
+@include media (max-width, 1023px){
+    .grid-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
-
 
 .floating_img {
     position: absolute;
@@ -12,8 +13,42 @@ body {
         left: 0;
     }
 
-    &.hero_2 {
+    &.hero_2,    
+    &.hero_2_mob  {
         right: 0;
+    }    
+    
+    &.hero_2_mob { 
+        display: none;
+    }
+
+    @include media (max-width,1800px){
+        img {
+            width: 80%;
+        }
+    }
+
+    @include media (max-width,1600px){
+        img {
+            width: 70%;
+        }
+
+        &.hero_2 {
+            text-align: right;
+        }
+    }
+
+    @include media (max-width,1200px){
+        &.hero_1,
+        &.hero_2 {
+            display: none;
+        }
+
+        &.hero_2_mob { 
+            position: unset;
+            display: block;
+            text-align: center;
+        }
     }
 }
 
@@ -126,6 +161,21 @@ body {
                     content: url(../img/icon/icn-chev.svg);
                     transform: rotate(-90deg);
                 }
+            }
+        }
+
+        @include media (max-width,1023px) {
+            
+            .accordion-title {
+                font-size: 16px;
+                &:before {
+                    padding-top: 4px;
+                    width: 34px;
+                    height: 34px;
+                }
+            }
+            .accordion-content {
+                font-size: 14px;
             }
         }
 

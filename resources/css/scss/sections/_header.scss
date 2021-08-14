@@ -1,9 +1,17 @@
 
 body {
 	&.admin-bar {
-
 		header .hsnav-s4{
 			top: 32px !important;
+			@include media (max-width,782px) {
+				top: 46px!important;
+			}
+				
+			@include media (max-width, 600px){
+				&.is-stuck {
+					top: 0 !important;
+				}
+			}
 		}
 
 	}
@@ -36,6 +44,18 @@ header {
 			position: fixed;
 			background: $color-white;
 			box-shadow: 0 3px 6px 0 rgba($color-black, 0.16);
+
+			.navbar {
+				min-height: 100px;
+				.grid-container {
+					height: 100px;
+				}
+				.navlogo {
+					figure {
+						width: 180px; 
+					}
+				}
+			}
 		}
 
 		.topbar {
@@ -145,6 +165,7 @@ header {
 				height: 140px;
 				align-items: center;
 				justify-content: space-between;
+				transition: all 0.2s ease-in-out;
 			}
 
 			.navmenu {
@@ -196,7 +217,7 @@ header {
 				height: 50px; 
 				position: absolute;  
 				right: 20px; 
-				top: 14px; 
+				top: 24px; 
 				font-size: 0; 
 				cursor: pointer; 
 				display: block;
@@ -204,37 +225,38 @@ header {
 				&:before {
 					content: ""; 
 					position: absolute; 
-					border-top: 3px solid $color-primary; 
-					border-bottom: 3px solid $color-primary; 
+					border-top: 3px solid #B77E30; 
 					left: 14px; 
 					top: 16px; 
-					width: 22px; 
+					width: 27px; 
 					height: 19px; 
 					transition: all 0.5s ease;
 				}
 				&:after {
 					content: ""; 
 					position: absolute; 
-					border-top: 3px solid $color-primary; 
+					border-top: 3px solid #B77E30; 
 					left: 14px; 
-					top: 24px; 
-					width: 22px; 
+					top: 30px; 
+					width: 27px; 
 					transition: all 0.5s ease;
 				}
 				@at-root header.show-menu .hsnav-s4 .navicon {
 					&:before {
 						box-shadow: none; 
 						left: 14px; 
-						top: 24px; 
+						top: 24px;
 						height: 3px; 
 						transform: rotate(-45deg); 
 						border-bottom: 0; 
+						border-top: 3px solid #847A6A; 
 					}
 					&:after {
-						width: 22px; 
+						width: 27px; 
 						left: 14px; 
 						top: 24px; 
 						transform: rotate(45deg);
+						border-top: 3px solid #847A6A; 
 					}
 				}
 
@@ -244,9 +266,9 @@ header {
 			@include media(max-width, 1023px) {
 				.mobmenu {
 					position: fixed;
-					top: -100vh;
+					top: 100px;
 					height: calc(100vh - 120px);
-					left: 0;
+					left: 100%;
 					right: 0;
 					background: $color-primary;
 					transition:all 0.5s ease;
@@ -256,20 +278,31 @@ header {
 					ul {
 						display: block;
 						margin: 0;
-						padding:10px 0; 
+						padding: 20px 50px; 
 						width: 100%;
+
+						
+						li.nav-cta {
+							border-bottom: 0;
+
+							.button.hollow {
+								padding: 30px 0px !important;
+								color: #B77E30;
+							}
+						}
 
 						li {
 							text-align: left;
 							display: block;
 							margin: 0;
-							border-top: 1px solid lighten($color-black, 90%);
+							padding: 26px 0;
+							border-bottom: 1px solid #c4c4c4;
 
 							a {
-								font-size: 14px; 
+								font-size: 18px; 
 								line-height: 1.1; 
 								font-weight: bold; 
-								color:lighten($color-black, 44%); 
+								color: #454545; 
 								text-transform: uppercase; 
 								padding:16px 35px; 
 								position: relative;
@@ -313,9 +346,24 @@ header {
 					
 					@at-root header.show-menu .hsnav-s4 .mobmenu {
 						display: block;
-						top:120px;
+						top:100px;
+						left: 0;
 					}
 
+				}
+			}
+		}
+
+		@include media (max-width, 1023px){
+			.navbar {
+				min-height: 100px;
+				.grid-container {
+					height: 100px;
+				}
+				.navlogo {
+					figure {
+						width: 180px
+					}
 				}
 			}
 		}

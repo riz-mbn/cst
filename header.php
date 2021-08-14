@@ -24,26 +24,21 @@
                     </a>
                     <span class="navicon hide-for-large" data-toggle="header">mobile menu</span>
                     <nav class="navmenu show-for-large">
-                    <?php
-                        wp_nav_menu( array( 
-                            'theme_location' => 'main-menu',
-                            'menu'         => '',
-                            'container'    => 'ul',
-                            'items_wrap' => '<ul class="menu">%3$s</ul>' ,
-                            'menu_class'   => 'menu align-right dropdown',
-                        ));
-                    ?> 
+                        <ul class="menu align-right dropdown" data-dropdown-menu>
+                            <li><a href="<?php echo home_url() ?>/#services">Services</a></li>
+                            <li><a href="<?php echo home_url() ?>/#about">About Us</a></li>
+                            <li><a href="<?php echo home_url() ?>/#faqs">FAQ</a></li>
+                            <li><a href="<?php echo home_url() ?>/contact">Contact</a></li>
+                        </ul>
                     </nav>
                     <nav class="mobmenu hide-for-large">
-                    <?php
-                        wp_nav_menu( array( 
-                            'theme_location' => 'main-menu',
-                            'menu'         => '',
-                            'container'    => 'ul',
-                            'items_wrap' => '<ul class="menu">%3$s</ul>' ,
-                            'menu_class'   => 'menu align-right dropdown',
-                        ));
-                    ?> 
+                        <ul class="menu accordion-menu" data-multi-open="false" data-accordion-menu data-submenu-toggle="true">
+                            <li><a href="<?php echo home_url() ?>">Home</a></li>
+                            <li><a href="<?php echo home_url() ?>/#services">Services</a></li>
+                            <li><a href="<?php echo home_url() ?>/#about">About Us</a></li>
+                            <li><a href="<?php echo home_url() ?>/#faqs">FAQ</a></li>
+                            <li class="nav-cta"><a href="<?php echo home_url() ?>/contact" class="button hollow" >Contact</a></li>
+                        </ul>
                     </nav>
                 </div>
             </div>
