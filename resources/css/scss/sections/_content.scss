@@ -1,3 +1,9 @@
+
+.content {
+    
+    min-height: 456px;
+}
+
 @include media (max-width, 1023px){
     .grid-container {
         padding-left: 30px;
