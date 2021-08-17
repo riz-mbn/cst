@@ -7,7 +7,6 @@
     }
 
     p {
-        font-size: 18px;
         color: #8B8B8B;
         font-weight: 600;
     }   
@@ -27,7 +26,6 @@
     
                 h4 {
                     margin-bottom: 0;
-                    font-size: 18px;
                     color: #454545;
                 }
         
@@ -38,7 +36,6 @@
                 h4 {
                     a {
                         color: #454545;
-                        font-size: 30px;
                         font-weight: 700;
     
                     }
@@ -55,10 +52,49 @@
         padding-top: 70px;
 
         h3 {
-            font-size: 30px;
             font-weight: 400;
             margin-bottom: 45px;
         }
     
+    }
+
+    @include media (min-width, 1024px){
+        
+        p {
+            font-size: 18px;
+        }
+
+        .icon_blurbs {
+            .icon_blurb {
+                .media_body {
+        
+                    h4 {
+                        font-size: 18px;
+                    }
+            
+                }
+        
+                &.phone {
+                    
+                    h4 {
+                        a {
+                            font-size: 30px;
+        
+                        }
+                    }
+        
+                }
+        
+            }
+    
+        }
+
+        .col-form {
+    
+            h3 {
+                font-size: 30px;
+            }
+        
+        }
     }
 }
