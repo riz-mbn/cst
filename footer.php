@@ -13,40 +13,52 @@
                             </figure>
                         </div>
                     </div>
-                    <div class="cell large-9 col-copy align-self-middle">
+                    <div class="cell large-9 col-copy align-self-middle">        
                         <div class="footer_menu">                
-                        <?php
-                            wp_nav_menu( array( 
-                                'theme_location' => 'footer-menu',
-                                'menu'         => '',
-                                'container'    => 'ul',
-                                'items_wrap' => '<ul class="menu">%3$s</ul>' ,
-                                'menu_class'   => 'menu align-right dropdown',
-                            ));
-                        ?> 
+                            <ul class="menu">
+                                <li class="menu-item"><a href="<?php echo home_url() ?>">Homepage</a></li>
+                                <li class="menu-item"><a href="<?php echo home_url() ?>/#services">Services</a></li>
+                                <li class="menu-item"><a href="<?php echo home_url() ?>/#about">About Us</a></li>
+                                <li class="menu-item"><a href="<?php echo home_url() ?>/#faqs">FAQ</a></li>
+                                <li class="menu-item"><a href="<?php echo home_url() ?>/contact">Contact</a></li>
+                            </ul>
                         </div>
                         <div class="follow_us">
                             <span class="social_icon fb_icon">
-                                <figure>
-                                    <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-fb.svg" alt="" width="34" height="34" />
-                                </figure>
+                                <a href="#" target="_blank">
+                                    <figure>
+                                        <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-fb.svg" alt="" width="34" height="34" />
+                                    </figure>
+                                </a>
                             </span>
                             <span class="social_icon tw_icon">
-                                <figure>
-                                    <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-tw.svg" alt="" width="34" height="34" />
-                                </figure></span>
+                                <a href="#" target="_blank">
+                                    <figure>
+                                        <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-tw.svg" alt="" width="34" height="34" />
+                                    </figure>
+                                </a>
+                            </span>
                             <span class="social_icon in_icon">
-                                <figure>
-                                    <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-in.svg" alt="" width="34" height="34" />
-                                </figure></span>
+                                <a href="#" target="_blank">
+                                    <figure>
+                                        <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-in.svg" alt="" width="34" height="34" />
+                                    </figure>
+                                </a>
+                            </span>
                             <span class="social_icon yt_icon">
-                                <figure>
-                                    <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-yt.svg" alt="" width="34" height="34" />
-                                </figure></span>
+                                <a href="#" target="_blank">
+                                    <figure>
+                                        <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-yt.svg" alt="" width="34" height="34" />
+                                    </figure>
+                                </a>
+                            </span>
                             <span class="social_icon ig_icon">
-                                <figure>
-                                    <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-ig.svg" alt="" width="34" height="34" />
-                                </figure></span>
+                                <a href="#" target="_blank">
+                                    <figure>
+                                        <img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-ig.svg" alt="" width="34" height="34" />
+                                    </figure>
+                                </a>
+                            </span>
                         </div>
                     </div>
                 </div>

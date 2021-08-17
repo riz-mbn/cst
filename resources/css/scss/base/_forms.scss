@@ -1,6 +1,6 @@
 
 /* FORMS */
-$field-height: 54px;
+$field-height: 60px;
 $field-height-sm: 45px;
 
 ::-moz-placeholder{color:#333;opacity:1;}
@@ -18,7 +18,7 @@ textarea,
 select {
     color: lighten($color-black, 7%);
     border:0;
-    border: 1px solid darken($color-white, 12%);
+    border-bottom: 2px solid #C3A06D;
     height: $field-height;
     padding:15px 20px;
     font-size:16px;
@@ -167,7 +167,7 @@ select {
 
 
 //Custom Class
-.field, .fields {
+.field, .fields, .gfield {
     position: relative;
     margin-bottom: 14px;
     text-align: left;
@@ -179,7 +179,7 @@ select {
     label {
         font-size: 18px;
         line-height: 1;
-        color: lighten($color-black, 7%);
+        color: #454545;
         margin-bottom: 10px;;
     }
 
@@ -288,7 +288,7 @@ select {
 
 //Gravity form custom
 textarea.small {
-	height: 150px;
+	height: $field-height;
 }    
 textarea.medium {
 	height: 200px;
@@ -334,5 +334,14 @@ ul.gform_fields  {
                 }
             }
         }
+    }
+}
+
+
+.gform_footer {
+    .button {
+        background: #B77E30;
+        padding: 20px 30px;
+
     }
 }

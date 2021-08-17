@@ -19,6 +19,7 @@ body {
 
 /* Header Sticky Nav Style 4 */
 header {
+	height: 140px;
 	position: relative;
 	z-index: 9999;
 	
@@ -357,7 +358,15 @@ header {
 			}
 		}
 
-		@include media (max-width, 1023px){
+	}
+
+	
+
+	@include media (max-width, 1023px){
+		height: 100px;
+
+			
+		.hsnav-s4 {
 			height: 100px;
 
 			.navbar {
@@ -372,6 +381,5 @@ header {
 				}
 			}
 		}
-
 	}
 }

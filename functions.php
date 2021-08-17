@@ -3,7 +3,7 @@
 define('MBN_DIR_URI', get_template_directory_uri());
 define('MBN_DIR_PATH', get_template_directory());
 define('MBN_ASSETS_URI', MBN_DIR_URI.'/resources');
-define('MBN_MAP_API_KEY',"AIzaSyDac2mOtJr_IktjUhiLZYRL_xHzxRbodRE");
+define('MBN_MAP_API_KEY',"AIzaSyC4WcN4hJDZ2sd0dnTG5qRVCRD8uO1bs2c");
 
 /**
  * Theme setup
@@ -108,6 +108,11 @@ function mbn_enqueue_scripts(){
         'theme_url' => MBN_DIR_URI,
         'nonce'     => wp_create_nonce('mbn-nonce')
     ));
+
+    // google maps
+    wp_register_script('googlemaps', 'https://maps.googleapis.com/maps/api/js?&key='. MBN_MAP_API_KEY .'&callback=initMap&libraries=&v=weekly', array(), '', true);
+
+
 }
 add_action('wp_enqueue_scripts', 'mbn_enqueue_scripts', 20);
 
@@ -148,8 +153,8 @@ function mbn_myme_types($mime_types){
 add_filter('upload_mimes', 'mbn_myme_types');
 
 
+require MBN_DIR_PATH."/mbn-login/setup.php";
 require MBN_DIR_PATH.'/includes/post-types.php';
 require MBN_DIR_PATH.'/includes/shortcodes.php';
 require MBN_DIR_PATH.'/includes/public-hooks.php';
 require MBN_DIR_PATH.'/includes/admin-hooks.php';
-
