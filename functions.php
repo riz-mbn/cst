@@ -68,8 +68,8 @@ function mbn_enqueue_scripts(){
     wp_register_style('inlinecss-handle', false);
     wp_enqueue_style('inlinecss-handle');
 
-    wp_enqueue_style('font-opensans', 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap', [], $wp_version);
-    wp_enqueue_style('font-abril', 'https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap', [], $wp_version);
+    //wp_enqueue_style('font-opensans', 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap', [], $wp_version);
+   // wp_enqueue_style('font-abril', 'https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap', [], $wp_version);
 
 	//Global JS
 	wp_deregister_script( 'jquery' );
@@ -98,7 +98,7 @@ function mbn_enqueue_scripts(){
     
     // App
     wp_enqueue_style('app', MBN_ASSETS_URI.'/css/app.css', [], $wp_version);
-    wp_enqueue_script('app', MBN_ASSETS_URI.'/js/app.js', [], $wp_version, true);
+    wp_enqueue_script('app', MBN_ASSETS_URI.'/js/app.js', [], '', '1.0.1');
     
 
     // localize objects
@@ -158,3 +158,4 @@ require MBN_DIR_PATH.'/includes/post-types.php';
 require MBN_DIR_PATH.'/includes/shortcodes.php';
 require MBN_DIR_PATH.'/includes/public-hooks.php';
 require MBN_DIR_PATH.'/includes/admin-hooks.php';
+

@@ -33,11 +33,11 @@
                     </nav>
                     <nav class="mobmenu hide-for-large">
                         <ul class="menu accordion-menu" data-multi-open="false" data-accordion-menu data-submenu-toggle="true">
-                            <li><a href="<?php echo home_url() ?>">Home</a></li>
-                            <li><a href="<?php echo home_url() ?>/#services">Services</a></li>
-                            <li><a href="<?php echo home_url() ?>/#about">About Us</a></li>
-                            <li><a href="<?php echo home_url() ?>/#faqs">FAQ</a></li>
-                            <li class="nav-cta"><a href="<?php echo home_url() ?>/contact" class="button hollow" >Contact</a></li>
+                            <li class="menu_item" data-toggler=".show-menu"><a href="<?php echo home_url() ?>">Home</a></li>
+                            <li class="menu_item" data-toggler=".show-menu"><a href="<?php echo home_url() ?>/#services">Services</a></li>
+                            <li class="menu_item" data-toggler=".show-menu"><a href="<?php echo home_url() ?>/#about">About Us</a></li>
+                            <li class="menu_item" data-toggler=".show-menu"><a href="<?php echo home_url() ?>/#faqs">FAQ</a></li>
+                            <li class="menu_item nav-cta" data-toggler=".show-menu"><a href="<?php echo home_url() ?>/contact" class="button hollow" >Contact</a></li>
                         </ul>
                     </nav>
                 </div>

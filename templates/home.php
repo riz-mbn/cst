@@ -10,7 +10,7 @@
             <figure class="floating_img hero_1"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-1.png" alt="" width="524" height="824" /></figure>
             <div class="grid-x grid-margin-x">
                 <div class="cell large-offset-1 large-10 align-self-bottom">
-                    <figure class="text-center"><img src="<?php echo MBN_ASSETS_URI ?>/img/home_logo.svg" alt=""></figure>
+                    <figure class="text-center"><img src="<?php echo MBN_ASSETS_URI ?>/img/home_logo.svg" alt="" width="196" height="225" ></figure>
                 </div>
                 <div class="cell large-8 large-offset-2 hero-caption text-center">
                     <h1><span class="lightgrey">A boutique speech</span></h1>

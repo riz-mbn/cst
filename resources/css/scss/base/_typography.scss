@@ -90,7 +90,6 @@ h6{
 
 }
 
-
 @include media(max-width, 639px){
     body{
         font-size: 14px;
@@ -219,4 +218,11 @@ blockquote {
     }
 }
 
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 

@@ -23,6 +23,12 @@
                 $('#header').removeClass('show-account');
                 $('#header').removeClass('show-menu');
             });       
+            
+            $('.mobmenu .menu li.menu_item a').click(function(){
+                $('.navicon').click();
+                $('.navicon').attr('aria-expanded', 'false');
+                $('#header').removeClass('show-menu');
+            });
 
             $(window).scroll(function() {
                 var button_up;
@@ -65,7 +71,7 @@
             // *only* if we have anchor on the url
             if(window.location.hash) {
 
-                if( $windowWidth <= 1023 ){ offset = 250;}
+                if( $windowWidth <= 1023 ){ offset = 150;}
                 else { offset = 100; }	
                 var scroll = $(window.location.hash).offset().top - offset;
                 scroll  = scroll + 'px';
@@ -82,7 +88,7 @@
                   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
                   if (target.length) {
                     $('html,body').animate({
-                      scrollTop: target.offset().top - 120
+                      scrollTop: target.offset().top - 150
                     }, 1000);
                     return false;
                   }
