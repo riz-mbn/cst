@@ -244,7 +244,7 @@ section {
 
             .col-right {
                 position: relative;
-                top: -129px;
+                top: -100px;
 
                 .col-image.nicole_img {
                     margin-bottom: 90px;
@@ -604,6 +604,11 @@ section {
         &:not(.float_img) {
             text-align: center;
         }
+
+        &.nicole_sign {
+            text-align: left;
+        }
+
 
         &.nicole_img {
             margin-bottom: 30px;

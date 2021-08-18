@@ -11,7 +11,7 @@
 
 </head>
 <body <?php body_class() ?>>
-
+<button data-scroll="up" class="btn_scroll_up"><span>UP</span></button>
 <div id="wrapper"> 
     <header id="header" data-sticky-container data-toggler=".show-menu">
         <div class="hsnav-s4 sticky" data-sticky data-options="marginTop:0">

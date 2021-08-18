@@ -66,8 +66,7 @@
         </div>
         <div class="footbot">
             <div class="grid-container">
-                <div class="copyright"><span>&copy; Copyright <?php echo date('Y'); ?> Speech Therapy</span><span class="separator"> | </span> <span>ALL Rights Reserved</span><span class="separator"> | </span> </span>
-                <div class="footer_links"><a href="#">Terms of Service</a><span class="separator"> | </span><a href="#">Privacy Policy</a><span class="separator"> | </span> </span>
+                <div class="copyright"><span>&copy; Copyright <?php echo date('Y'); ?> Candid Speech Therapy</span><span class="separator"> | </span> <span>ALL Rights Reserved</span><span class="separator"> | </span> </span>
                 <div class="designby"><a href="https://www.mybizniche.com/phoenix-web-design/" target="_blank">Website Design</a> by: My Biz Niche</span>
             </div>
         </div>

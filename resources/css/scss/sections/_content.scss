@@ -111,6 +111,22 @@
     }
 }
 
+.btn_scroll_up {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99999;
+    background: #DBBC8F;
+    padding: 15px 20px;
+    border-radius: 10px 10px 0 0;
+    font-size: 0;
+    cursor: pointer;
+
+    &:before {
+        content: url(../img/icon/icn-chev-up.png);
+    }
+}
+
 .accordion {
 
     background: transparent !important;
