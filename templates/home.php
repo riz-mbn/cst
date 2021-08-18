@@ -6,22 +6,23 @@
 
 <section class="hero hero-s5">
     <div class="hero-block">
-        <div class="grid-container"> 
-            <figure class="floating_img hero_1"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-1.png" alt="" width="524" height="824" /></figure>
-            <div class="grid-x grid-margin-x">
-                <div class="cell large-offset-1 large-10 align-self-bottom">
-                    <figure class="text-center"><img src="<?php echo MBN_ASSETS_URI ?>/img/home_logo.svg" alt="" width="196" height="225" ></figure>
-                </div>
-                <div class="cell large-8 large-offset-2 hero-caption text-center">
-                    <h1><span class="lightgrey">A boutique speech</span></h1>
-                    <h1><span class="lightgrey">therapy clinic </span>serving</h1>
-                    <h1>children and adults</h1>
-                    <h1>in Arizona.</h1>
-                </div>
-            </div>            
-            <figure class="floating_img hero_2"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2.png" alt="" width="524" height="824" ></figure>
-            <figure class="floating_img hero_2_mob"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2-mob.png" alt="" width="524" height="824" ></figure>
-        </div>
+        <div class="grid-x">            
+            <div class="cell xlarge-3 large-3 medium-12 align-self-middle">
+                <figure class="floating_img hero_1"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-1.png" alt="" width="524" height="824" /></figure>
+            </div>
+            <div class="cell xlarge-6 large-6 medium-12 hero-caption text-center">
+                <figure class="text-center"><img src="<?php echo MBN_ASSETS_URI ?>/img/home_logo.svg" alt="" width="196" height="225" ></figure>
+                <h1><span class="lightgrey">A boutique speech</span></h1>
+                <h1><span class="lightgrey">therapy clinic </span>serving</h1>
+                <h1>children and adults</h1>
+                <h1>in Arizona.</h1>
+            </div>         
+            <div class="cell xlarge-3 large-3 medium-12 align-self-middle">
+                <figure class="floating_img hero_2"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2.png" alt="" width="524" height="824" ></figure>
+                <figure class="floating_img hero_2_mob"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2-mob.png" alt="" width="524" height="824" ></figure>
+            </div>   
+        </div>       
+        <a href="#services"><figure class="floating_img arrow_scroll"><img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-scroll-down.svg" alt="" width="16" height="108" ></figure></a>
     </div>
 </section>
 <section id="services" class="services">
@@ -100,7 +101,7 @@
                 <figure class="col-image show-for-large nicole_img"><img src="<?php echo MBN_ASSETS_URI ?>/img/about.png" alt="" width="500" height="500" /></figure>
                 <div class="text-group">
                     <p><strong>The best part of being a speech language pathologist?</strong></p> 
-                    <p class="italic">Making connections with people. Using my training to support others and give them a voice to be their most authentic selves. </p> 
+                    <p class="">Making connections with people. Using my training to support others and give them a voice to be their most authentic selves. </p> 
                 </div>
                 <div class="text-group">
                     <figure class="col-image nicole_sign"><img src="<?php echo MBN_ASSETS_URI ?>/img/Nicole-Carter-sign.svg" alt="" width="272" height="59" /></figure>
@@ -251,7 +252,7 @@
                         <li class="accordion-item is-active" data-accordion-item>
                                 <a href="#" class="accordion-title"><span>I think my child/loved one needs speech therapy. What should I do?</span></a>
                                 <div class="accordion-content" data-tab-content>
-                                <p>Reach out to us. Let’s discuss your concerns. From there we can help determine whether a formal screening or an evaluation is needed and a course of action. Feel free to refer to <span class="highlight">Our Process</span> for more information.</p>
+                                <p>Reach out to us. Let’s discuss your concerns. From there we can help determine whether a formal screening or an evaluation is needed and a course of action. Feel free to refer to <a href="#process" class="highlight">Our Process</span></a> for more information.</p>
                                 </div>
                             </li>
                             <li class="accordion-item" data-accordion-item>

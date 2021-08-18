@@ -4,10 +4,12 @@
 .hero-s5 {
 	position: relative;
     background: #FFFAEF;
+    padding:0;
 
 	.hero-block {
 		position: relative;
-        min-height: 937px;
+        min-height: 850px;
+        padding-top: 20px;
 	
 		.bg {
 			position: absolute;
@@ -33,6 +35,7 @@
 				object-fit:cover;
 			}
 		}
+
 	}
 	.hero-caption {
 		padding-top: 60px;
@@ -56,6 +59,10 @@
             line-height: 1.2;
             margin-bottom: 0;
         }
+
+        figure {
+            margin-bottom: 8%;
+        }
 	}
 
 	.hero-logos {
@@ -78,22 +85,43 @@
 
     @include media (max-width,1800px){
         .hero-block {
-            min-height: 100%;
+            min-height: 800px;
         }
     }
-    
+
+    @include media (max-width,1600px){
+        .hero-block {
+            min-height: 800px;
+        }
+    }
+
+    @include media (max-width,1200px){
+        .hero-block {
+            .grid-x { 
+                align-items: center;
+                flex-flow: column wrap;
+            }
+        }
+    }
+
 	@include media(max-width, 1440px) {
         .hero-caption {
 
 			h1 {
-				font-size: 45px;
+				font-size: 40px;
 			}
 		}
+        .hero-block {
+            min-height: 680px;
+        }
     }
 
 	@include media(max-width, 1280px) {
+        .hero-block {
+            min-height: 620px;
+        }
 		.hero-caption {
-			padding-top: 110px;
+			padding-top: 20px;
 			padding-bottom: 80px;
 			font-size: 18px;
 		}
@@ -117,6 +145,26 @@
 			height: auto;
 		}
 	}
+
+    
+	@include media(max-width, 768px) {
+        padding-top: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+        .hero-caption {
+
+			h1 {
+				font-size: 40px;
+			}
+
+            figure {
+                img {
+                    width: 100px;
+                }
+            }
+		}
+    }
 	
 	@include media(max-width, 639px) {
 		.hero-caption {
@@ -171,11 +219,20 @@ section {
             margin-bottom: 90px;
         }
 
+        p {
+            color: #59492C;
+        }
+
         .meet_nicole {
             padding: 30px; 
             background: #C99D60;
             color: $color-white;
             max-height: 900px;
+
+            p{
+                color: $color-white;
+                font-weight: 300;
+            }
 
             h2 {
                 color: $color-white;

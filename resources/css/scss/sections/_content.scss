@@ -11,12 +11,15 @@
 }
 
 .floating_img {
-    position: absolute;
-    top: 40px;
 
     &.hero_1 {
         left: 0;
     }
+
+    &.hero_1,    
+    &.hero_2 {
+        top: 40px;
+    }    
 
     &.hero_2,    
     &.hero_2_mob  {
@@ -27,16 +30,13 @@
         display: none;
     }
 
-    @include media (max-width,1800px){
-        img {
-            width: 80%;
-        }
+    &.arrow_scroll {
+        position:  absolute;
+        bottom: 0;
+        right: 50%;
     }
 
     @include media (max-width,1600px){
-        img {
-            width: 70%;
-        }
 
         &.hero_2 {
             text-align: right;
@@ -53,6 +53,9 @@
             position: unset;
             display: block;
             text-align: center;
+        }
+        &.arrow_scroll {
+            display: none;
         }
     }
 }
@@ -136,6 +139,7 @@
             
             &:before {
                 content: url(../img/icon/icn-chev.svg); 
+                transform: rotate(-90deg);
                 background: #F2E4C2;
                 border-radius: 50%;
                 width: 54px;
@@ -143,6 +147,7 @@
                 text-align: center;
                 top: 30%;
                 transition: all 0.3s ease;
+                padding-top: 2px;
             }
         }
     
@@ -165,7 +170,17 @@
             > .accordion-title {
                 &:before {
                     content: url(../img/icon/icn-chev.svg);
-                    transform: rotate(-90deg);
+                    transform: rotate(0deg);
+                }
+            }
+        }
+
+        @media (max-width: 1400px)  and (min-width: 1024px) {
+            
+            .accordion-title {
+                font-size: 20px;
+                &:before {
+                    padding-top: 10px;
                 }
             }
         }
