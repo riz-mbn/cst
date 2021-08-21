@@ -35,7 +35,7 @@
                 var sticky = false;
                 var top = $(window).scrollTop();
                     
-                if ( $(".sticky-container").offset().top < top ) {
+                if (top > 0) {
 
                     $('.sticky').addClass('is-stuck');
                     $('.sticky').removeClass('is-anchored');
@@ -71,7 +71,7 @@
             // *only* if we have anchor on the url
             if(window.location.hash) {
 
-                if( $windowWidth <= 1023 ){ offset = 150;}
+                if( $windowWidth <= 1023 ){ offset = 70;}
                 else { offset = 100; }	
                 var scroll = $(window.location.hash).offset().top - offset;
                 scroll  = scroll + 'px';
@@ -87,8 +87,12 @@
                   var target = $(this.hash);
                   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
                   if (target.length) {
+                      					  
+					if( $windowWidth <= 1023 ){ offset = 70;}
+					else { offset = 100; }	
+
                     $('html,body').animate({
-                      scrollTop: target.offset().top - 150
+                      scrollTop: target.offset().top - offset
                     }, 1000);
                     return false;
                   }

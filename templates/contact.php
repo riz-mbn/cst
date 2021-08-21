@@ -47,7 +47,7 @@
 					</div>
 				</div>
 				<div class="text-group">
-					<iframe src="https://snazzymaps.com/embed/332440" width="560px" height="435px" style="border:none;"></iframe>
+					<iframe src="https://snazzymaps.com/embed/332440" width="100%" height="435px" style="border:none;"></iframe>
 				</div>
             </div>
             <div class="cell large-6 medium-12 large-offset-1 col-form">

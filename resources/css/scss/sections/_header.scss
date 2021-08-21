@@ -41,8 +41,9 @@ header {
 			position: fixed;
 			left: 0;
 			right: 0;
-			top: 0;
+			top: 0 !important;
 		}
+		
 		&.is-stuck {
 			height: 100px;
 			position: fixed;
