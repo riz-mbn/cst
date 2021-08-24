@@ -5,6 +5,7 @@
         <div class="text-block">
             <h1>Page Not Found.</h1>
             <p>The page you requested cannot be found.</p>
+            <p>&nbsp;</p>
 
             <p><a class="button" href="<?php echo home_url() ?>">Go back to Homepage</a></p>
         </div>

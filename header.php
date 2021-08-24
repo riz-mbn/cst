@@ -37,7 +37,7 @@
                             <li class="menu_item" data-toggler=".show-menu"><a href="<?php echo home_url() ?>/#services">Services</a></li>
                             <li class="menu_item" data-toggler=".show-menu"><a href="<?php echo home_url() ?>/#about">About Us</a></li>
                             <li class="menu_item" data-toggler=".show-menu"><a href="<?php echo home_url() ?>/#faqs">FAQ</a></li>
-                            <li class="menu_item nav-cta" data-toggler=".show-menu"><a href="<?php echo home_url() ?>/contact" class="button hollow" >Contact</a></li>
+                            <li class="menu_item nav-cta" data-toggler=".show-menu"><a href="<?php echo home_url() ?>/contact" class="button hollow" >Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>
