@@ -1,6 +1,18 @@
 
-.content {    
-    min-height: 568px;
+body {
+
+    &.admin-bar {
+
+        .content {
+            min-height: 536px;
+        }
+    }
+
+    .content {    
+        min-height: 568px;
+    }
+    
+
 }
 
 @include media (max-width, 1023px){
