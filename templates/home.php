@@ -7,17 +7,17 @@
 <section class="hero hero-s5">
     <div class="hero-block">
         <div class="grid-x">            
-            <div class="cell xlarge-3 large-3 medium-12 align-self-middle">
+            <div class="cell xlarge-4 large-3 medium-12 align-self-middle">
                 <figure class="floating_img hero_1"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-1.png" alt="" width="524" height="824" /></figure>
             </div>
-            <div class="cell xlarge-6 large-6 medium-12 hero-caption text-center">
+            <div class="cell xlarge-4 large-6 medium-12 hero-caption text-center">
                 <figure class="text-center"><img src="<?php echo MBN_ASSETS_URI ?>/img/home_logo.svg" alt="" width="196" height="225" ></figure>
                 <h1><span class="lightgrey">A boutique speech</span></h1>
                 <h1><span class="lightgrey">therapy clinic </span>serving</h1>
                 <h1>children and adults</h1>
                 <h1>in Arizona.</h1>
             </div>         
-            <div class="cell xlarge-3 large-3 medium-12 align-self-middle">
+            <div class="cell xlarge-4 large-3 medium-12 align-self-middle text-right">
                 <figure class="floating_img hero_2"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2.png" alt="" width="524" height="824" ></figure>
                 <figure class="floating_img hero_2_mob"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2-mob.png" alt="" width="524" height="824" ></figure>
             </div>   
@@ -49,7 +49,8 @@
                         <span>Spelling</span>
                         <span>Fluency</span>
                         <span>Writing</span>
-                    </div>
+                    </div>                    
+                    <figure class="col-image hide-for-large"><img src="<?php echo MBN_ASSETS_URI ?>/img/services.png" alt="" width="567" height="718" /></figure>
                 </div>
                 <div class="text-group">
                     <h3>We also offer the following services: </h3>                    
@@ -66,7 +67,7 @@
                 </div>
             </div>
             <div class="cell large-5 align-self-middle">
-                <figure class="col-image"><img src="<?php echo MBN_ASSETS_URI ?>/img/services.png" alt="" width="567" height="718" /></figure>
+                <figure class="col-image show-for-large"><img src="<?php echo MBN_ASSETS_URI ?>/img/services.png" alt="" width="567" height="718" /></figure>
             </div>
         </div>
     </div>
@@ -75,11 +76,11 @@
     <div class="grid-container">
         <h2>About Us</h2>
         <div class="grid-x grid-margin-x about_us">
-            <div class="cell large-6">
+            <div class="cell xlarge-6 large-6 medium-12">
                 <p>Communication is powerful, it’s how we express our wants, needs, and feelings. Communication is the very tool we use to advocate for ourselves and keep ourselves and the people around us safe. Everyone deserves to have a voice. </p>
                 <p>We are a boutique speech therapy clinic serving children and adults. Our mission is simple---to support the development of your child or loved one’s speech and language abilities through an individualized, evidenced-based approach. </p>
             </div>
-            <div class="cell large-6">
+            <div class="cell xlarge-6 large-6 medium-12">
                 <p>We serve children from their first year of life through adulthood. Each session is individualized and provided by a therapist who is experienced, licensed and is passionate about empowering and enabling everyone they work with to realize their potential.</p>
                 <p>We want to support you on your journey.</p>
                 <a href="/contact" class="button_link">Let’s connect!</a>
@@ -87,17 +88,18 @@
         </div>
         <div class="grid-x grid-margin-x meet_nicole">       
             <figure class="col-image hide-for-large nicole_img"><img src="<?php echo MBN_ASSETS_URI ?>/img/about.png" alt="" width="500" height="500" /></figure>
-            <div class="cell large-6 col-left">
+            <div class="cell xlarge-5 large-6 medium-12 col-left">
                 <h2>Meet Nicole</h2>
                 <p class="italic">From the very beginning, I always knew I wanted to help people in some capacity. I’ve also always had a love for language and found it fascinating how we connect through communication. My journey lead me to find the field of speech language pathology and I haven’t looked back.</p>
 
                 <p class="italic">I graduated from Midwestern University in the beautiful state of Arizona with my masters degree. I’ve had the opportunity to present at state conferences, provide training and support to other therapists, and have conducted research.</p>
 
-                <p class="italic">I’ve had the privilege of working with amazing clients and their families, as well as other professionals. I’ve worked in lots of settings including, but not limited to, schools, ome healthcare, skilled nursing facilities, and long-term neuro-rehabilitaton facilities, and private practice.</p>
+                <p class="italic">I’ve had the privilege of working with amazing clients and their families, as well as other professionals. I’ve worked in lots of settings including, but not limited to, schools, home healthcare, skilled nursing facilities, and long-term neuro-rehabilitaton facilities, and private practice.</p>
 
-                <p class="italic">When it comes to speech and language therapy there isn’t a “one-size fits all” approach. It just doesn’t exist. Everyone is different. For people with communication disorders, I’ve found as a therapist I have to think outside of the box. I love to use my creativity along with evidence-based communicate candidly with the people that matter most. After all, that’s what life’s about.</p>     
+                <p class="italic">When it comes to speech and language therapy there isn’t a “one-size fits all” approach. It just doesn’t exist. Everyone is different. For people with communication disorders, I’ve found as a therapist I have to think outside of the box. I love to use my creativity alongwith evidence-based treatment methods to provide functional and individualized sessions. The goal? To help people communicate candidly with the people that matter most. After all, that’s what life’s about.</p>                  
+                <p class="italic">I love working with people of all backgrounds. I love learning new things. In my free time I enjoy the arts, traveling, spending time with my husband and our furry friend, as well as, family and friends.</p>
             </div>
-            <div class="cell large-6 col-right">       
+            <div class="cell xlarge-6 xlarge-offset-1 large-6 medium-12 col-right">       
                 <figure class="col-image show-for-large nicole_img"><img src="<?php echo MBN_ASSETS_URI ?>/img/about.png" alt="" width="500" height="500" /></figure>
                 <div class="text-group">
                     <p><strong>The best part of being a speech language pathologist?</strong></p> 
@@ -205,7 +207,7 @@
                     <div class="col-body">
                         <h3>We’re small, but mighty.</h3>
                         <p>Who says bigger is better?<br/>
-                        Smaller more personalized</p>
+                        Smaller=more personalized</p>
                     </div>
                 </div>
             </div>
@@ -223,7 +225,7 @@
                 <div class="col-box text-center">
                     <figure class="col-image"><img src="<?php echo MBN_ASSETS_URI ?>/img/img_stick.png" alt="" width="245" height="214"></figure>
                     <div class="col-body">
-                        <h3>We support and empower</h3>
+                        <h3>We support and empower.</h3>
                         <p>Knowledge is power.<br/>
                         We’re here to support you on your journey.</p>
                     </div>

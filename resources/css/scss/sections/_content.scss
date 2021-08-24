@@ -87,6 +87,7 @@
     }
     &.dark {
         span {
+            font-size: 18px;
             border-radius: 50px;
             background: #C3A06D;
             color: $color-white;
@@ -178,6 +179,7 @@
             }
 
             p {
+                color: #4B4949;
                 text-align: justify;
             }
         }
