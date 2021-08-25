@@ -96,7 +96,7 @@
 
                 <p class="italic">I’ve had the privilege of working with amazing clients and their families, as well as other professionals. I’ve worked in lots of settings including, but not limited to, schools, home healthcare, skilled nursing facilities, and long-term neuro-rehabilitaton facilities, and private practice.</p>
 
-                <p class="italic">When it comes to speech and language therapy there isn’t a “one-size fits all” approach. It just doesn’t exist. Everyone is different. For people with communication disorders, I’ve found as a therapist I have to think outside of the box. I love to use my creativity alongwith evidence-based treatment methods to provide functional and individualized sessions. The goal? To help people communicate candidly with the people that matter most. After all, that’s what life’s about.</p>                  
+                <p class="italic">When it comes to speech and language therapy there isn’t a “one-size fits all” approach. It just doesn’t exist. Everyone is different. For people with communication disorders, I’ve found as a therapist I have to think outside of the box. I love to use my creativity along with evidence-based treatment methods to provide functional and individualized sessions. The goal? To help people communicate candidly with the people that matter most. After all, that’s what life’s about.</p>                  
                 <p class="italic">I love working with people of all backgrounds. I love learning new things. In my free time I enjoy the arts, traveling, spending time with my husband and our furry friend, as well as, family and friends.</p>
             </div>
             <div class="cell xlarge-6 xlarge-offset-1 large-6 medium-12 col-right">       

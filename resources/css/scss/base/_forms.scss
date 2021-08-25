@@ -275,8 +275,8 @@ select {
     }
 }
 .validation_message {
-    color: $color-black;
-    font-size: 14px;
+    color: $color-alert;
+    font-size: 12px;
 }
 
 .validation_error {
@@ -285,6 +285,13 @@ select {
     margin: 0 0 20px;
 }
 
+.gfield_required_text  {
+    font-size:0;
+    &:before{
+        content: '*';
+        font-size: 12px;
+    }
+}
 
 //Gravity form custom
 textarea.small {
@@ -337,6 +344,16 @@ ul.gform_fields  {
     }
 }
 
+.gform_submission_error {
+    
+    font-size: 16px !important;
+    font-family: $body-font-family;
+}
+
+.gform_button {
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
 
 .gform_footer {
     .button {

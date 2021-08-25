@@ -83,7 +83,7 @@
 		}
 	}
 
-    @include media(min-width, 1920px){            
+    @include media(min-width, 1921px){            
             
         .hero-block {
             padding-right: 1.875rem;
@@ -181,7 +181,7 @@
 		.hero-caption {
 			font-size: 16px;
 			h1 {
-				font-size: 32px;
+				font-size: 27px;
 			}
 		}
 
@@ -602,6 +602,13 @@ section {
         &.why_choose_us {
             h3 {
                 font-size:16px !important;
+            }
+        }
+
+        &.about {
+
+            .about_us {
+            margin-bottom: 25px;
             }
         }
     

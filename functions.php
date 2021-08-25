@@ -3,7 +3,7 @@
 define('MBN_DIR_URI', get_template_directory_uri());
 define('MBN_DIR_PATH', get_template_directory());
 define('MBN_ASSETS_URI', MBN_DIR_URI.'/resources');
-define('MBN_MAP_API_KEY',"AIzaSyC4WcN4hJDZ2sd0dnTG5qRVCRD8uO1bs2c");
+define('MBN_MAP_API_KEY',"AIzaSyDGw796lT6PGFF97mZxv5LnemjwcDaJMJQ");
 
 /**
  * Theme setup
@@ -110,7 +110,7 @@ function mbn_enqueue_scripts(){
     ));
 
     // google maps
-    wp_register_script('googlemaps', 'https://maps.googleapis.com/maps/api/js?&key='. MBN_MAP_API_KEY .'&callback=initMap&libraries=&v=weekly', array(), '', true);
+    //wp_register_script('googlemaps', 'https://maps.googleapis.com/maps/api/js?&key='. MBN_MAP_API_KEY .'&callback=initMap&libraries=&v=weekly', array(), '', false);
 
 
 }

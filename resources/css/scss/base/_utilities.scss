@@ -25,6 +25,10 @@
 	text-align: center;
 }
 
+.map_bg {
+	width: 560px;
+	height: 434px;
+}
 
 //Custom foundation 
 @include media(min-width, 1600px) {
