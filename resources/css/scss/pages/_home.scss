@@ -36,6 +36,14 @@
 			}
 		}
 
+        .col-image {
+            width: 33%;
+        }
+
+        .col-copy {
+            width: 34%;
+        }
+
 	}
 	.hero-caption {
 		padding-top: 60px;
@@ -91,6 +99,8 @@
             max-width: 1903px;
             margin-left: auto;
             margin-right: auto;
+            
+            
         }
     }
 
@@ -103,6 +113,13 @@
     @include media (max-width,1600px){
         .hero-block {
             min-height: 800px;
+            .col-image {
+                width: 25%;
+            }
+
+            .col-copy {
+                width: 50%;
+            }
         }
     }
 
@@ -130,6 +147,7 @@
 	@include media(max-width, 1280px) {
         .hero-block {
             min-height: 620px;
+            
         }
 		.hero-caption {
 			padding-top: 20px;
@@ -148,6 +166,18 @@
     
     @include media(max-width, 1024px){
         padding-top: 60px;
+
+        .hero-block {
+            
+            .col-image {
+                width: 100%;
+            }
+
+            .col-copy {
+                width: 100%;
+            }
+
+        }
     }
 
 	@include media(max-width, 1023px) {

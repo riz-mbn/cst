@@ -23,7 +23,6 @@ function mbn_submenu_classes($classes, $args){
 //add_filter('wp_nav_menu_items', 'mbn_submenu_classes', 10, 2);
 
 
-
 add_action( 'wp_head', 'preload_fonts' ); 
 function preload_fonts() { 
     $url = 'https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap'; 

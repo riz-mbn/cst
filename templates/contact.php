@@ -47,7 +47,8 @@
 					</div>
 				</div>
 				<div class="text-group">
-					<div  class="map_bg" >
+					<figure><img src="<?php echo MBN_ASSETS_URI ?>/img/img_map.jpg" alt="" width="562" height="436" /></figure>	
+					<!-- <div  class="map_bg" >
 						<div id="the-map"style="height: 100%;"></div>
 							<script>
 								function initMap() {
@@ -76,8 +77,7 @@
 								}
 							</script>
 						<script async defer src="https://maps.googleapis.com/maps/api/js?key=<?php echo MBN_MAP_API_KEY ?>&callback=initMap"></script>
-					</div>
-	
+					</div> -->
 				</div>
             </div>
             <div class="cell large-6 medium-12 large-offset-1 col-form">

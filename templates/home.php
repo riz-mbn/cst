@@ -7,17 +7,17 @@
 <section class="hero hero-s5">
     <div class="hero-block">
         <div class="grid-x">            
-            <div class="cell xlarge-4 large-3 medium-12 align-self-middle">
+            <div class="cell col-image align-self-middle">
                 <figure class="floating_img hero_1"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-1.png" alt="" width="524" height="824" /></figure>
             </div>
-            <div class="cell xlarge-4 large-6 medium-12 hero-caption text-center">
+            <div class="cell col-copy hero-caption text-center">
                 <figure class="text-center"><img src="<?php echo MBN_ASSETS_URI ?>/img/home_logo.svg" alt="" width="196" height="225" ></figure>
                 <h1><span class="lightgrey">A boutique speech</span></h1>
                 <h1><span class="lightgrey">therapy clinic </span>serving</h1>
                 <h1>children and adults</h1>
                 <h1>in Arizona.</h1>
             </div>         
-            <div class="cell xlarge-4 large-3 medium-12 align-self-middle text-right">
+            <div class="cell col-image align-self-middle text-right">
                 <figure class="floating_img hero_2"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2.png" alt="" width="524" height="824" ></figure>
                 <figure class="floating_img hero_2_mob"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2-mob.png" alt="" width="524" height="824" ></figure>
             </div>   
@@ -250,8 +250,8 @@
             <div class="cell medium-12 large-6">
                 <div class="col-box">
                     <div class="col-body">
-                        <ul class="accordion" data-accordion>
-                        <li class="accordion-item is-active" data-accordion-item>
+                        <ul class="accordion" data-accordion data-allow-all-closed="true">
+                            <li class="accordion-item" data-accordion-item>
                                 <a href="#" class="accordion-title"><span>I think my child/loved one needs speech therapy. What should I do?</span></a>
                                 <div class="accordion-content" data-tab-content>
                                 <p>Reach out to us. Let’s discuss your concerns. From there we can help determine whether a formal screening or an evaluation is needed and a course of action. Feel free to refer to <a href="#process" class="highlight">Our Process</span></a> for more information.</p>
