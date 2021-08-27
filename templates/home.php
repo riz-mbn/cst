@@ -250,7 +250,7 @@
             <div class="cell medium-12 large-6">
                 <div class="col-box">
                     <div class="col-body">
-                        <ul class="accordion" data-accordion data-allow-all-closed="true">
+                        <ul class="accordion" data-accordion data-allow-all-closed="true"data-multi-expand="true">
                             <li class="accordion-item" data-accordion-item>
                                 <a href="#" class="accordion-title"><span>I think my child/loved one needs speech therapy. What should I do?</span></a>
                                 <div class="accordion-content" data-tab-content>
