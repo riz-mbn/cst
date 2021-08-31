@@ -120,6 +120,7 @@
     @include media (max-width,1600px){
         .hero-block {
             min-height: 800px;
+
             .col-image {
                 width: 25%;
             }
@@ -130,17 +131,59 @@
         }
     }
 
-    @include media (max-width,1200px){
+    @media (max-width: 1200px) and (min-width: 1141px){
+            
         .hero-block {
+            min-height: 560px !important;
+            
+        }
+    }
+
+    @include media (max-width,1140px){
+            
+        .hero-block {
+            min-height: 500px !important;
+            
+        }
+    }
+
+    @include media (max-width,1200px){
+        .hero-caption {
+
+            figure {
+                img {
+                    height: 140px!important;
+                }
+            }
+
+			h1 {
+				font-size: 35px!important;
+			}
+		}
+        .hero-block {
+            
             .grid-x { 
                 align-items: center;
-                flex-flow: column wrap;
+                flex-flow: row wrap;
+            }
+            .col-image {
+                width: 25% !important;
+            }
+
+            .col-copy {
+                width: 50% !important;
             }
         }
     }
 
 	@include media(max-width, 1440px) {
         .hero-caption {
+
+            figure {
+                img {
+                    height: 180px;
+                }
+            }
 
 			h1 {
 				font-size: 40px;
@@ -171,17 +214,28 @@
 		}
 	}
     
-    @include media(max-width, 1024px){
+    @include media(max-width, 1023px){
         padding-top: 60px;
 
+        .hero-caption {
+
+            figure {
+                img {
+                    height: auto;
+                }
+            }
+        }
         .hero-block {
-            
+            .grid-x { 
+                align-items: center;
+                flex-flow: column wrap;
+            }
             .col-image {
-                width: 100%;
+                width: 100% !important;
             }
 
             .col-copy {
-                width: 100%;
+                width: 100% !important;
             }
 
         }

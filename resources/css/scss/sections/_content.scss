@@ -46,6 +46,14 @@ body {
         position:  absolute;
         bottom: 0;
         right: 50%;
+
+        &:not(.mobile){
+            display: block;
+        }
+
+        &.mobile{
+            display: none;
+        }
     }
 
     @include media (max-width,1600px){
@@ -55,7 +63,7 @@ body {
         }
     }
 
-    @include media (max-width,1200px){
+    @include media (max-width,1023px){
         &.hero_1,
         &.hero_2 {
             display: none;
@@ -69,6 +77,21 @@ body {
         &.arrow_scroll {
             display: none;
         }
+    }
+    @include media (max-width,1440px){
+
+
+        &.arrow_scroll {
+    
+            &:not(.mobile){
+                display: none;
+            }
+    
+            &.mobile{
+                display: block;
+            }
+        }
+    
     }
 }
 

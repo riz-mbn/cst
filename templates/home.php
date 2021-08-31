@@ -22,7 +22,10 @@
                 <figure class="floating_img hero_2_mob"><img src="<?php echo MBN_ASSETS_URI ?>/img/hero-2-mob.png" alt="" width="524" height="824" ></figure>
             </div>   
         </div>       
-        <a href="#services"><figure class="floating_img arrow_scroll"><img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-scroll-down.svg" alt="" width="16" height="108" ></figure></a>
+        <a href="#services">
+            <figure class="floating_img arrow_scroll"><img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-scroll-down.svg" alt="" width="16" height="108" ></figure>
+            <figure class="floating_img arrow_scroll mobile"><img src="<?php echo MBN_ASSETS_URI ?>/img/icon/icn-scroll-down-l.png" alt="" width="16" height="54" ></figure>
+        </a>
     </div>
 </section>
 <section id="services" class="services">
